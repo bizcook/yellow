@@ -49,17 +49,19 @@ while(i>0) {
 	i--;
 	value++;
 }
+//value = 12 as a number
 
-function (val) {
-  val = value.toString();
+
+function valValue (val){
+	val = val.toString();
   if(val.length>1) {
-  	value = str.slice(1);
+  	val = val.slice(1);
   	return val;
   }
 };
 
 
-
+value = valValue(value);
 console.log(value);
 
 
